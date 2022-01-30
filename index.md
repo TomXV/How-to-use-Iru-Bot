@@ -1,7 +1,7 @@
 # ヘルプ/Help
 ---
-このBot(イルーくん)のPrefixは`!iru `です!  
-This bot's prefix is !iru  
+このBot(イルーくん)のPrefixは`!iru `です!
+This bot's prefix is !iru
 ### English version is at bottom
 ---
 # CURRENTLY IN UPDATE
@@ -26,7 +26,7 @@ This bot's prefix is !iru
 |adduserblacklist|aubl|指定したユーザーをBotの使用から制限します!|!iru setting adduserblacklist @Airun|
 |addroleblacklist|arbl|指定したロールをBotの使用から制限します!|!iru setting addroleblacklist @examplerole|
 |removeuserblacklist|rubl, dubl|指定したユーザーをBotの使用の制限を解禁します!|!iru setting removeuserblacklist @Airun|
-|removeroleblacklist|rrbl, drbl|指定したロールをBotの使用の制限を解禁します!|!iru setting removeroleblacklist @examplerole|  
+|removeroleblacklist|rrbl, drbl|指定したロールをBotの使用の制限を解禁します!|!iru setting removeroleblacklist @examplerole|
 |settings|setting|サーバー、ユーザに関する細かい設定を行えるコマンドです!|!iru settings|
 |troubleshoot|ts|読み上げが動かなくなった時の対処法が書かれてるコマンドです!|!iru troubleshoot|
 |voicelist|vl|対応してる声優さんのリストの確認するコマンドです!|!iru voicelist|
@@ -44,18 +44,18 @@ This bot's prefix is !iru
 
 ---
 
-## Voiceコマンドの使い方:   
+## Voiceコマンドの使い方:
 ボイスコマンドはユーザーが指定したボイスに変更することができます!設定できる項目が多いので注意しながら設定してください!
 
-### 注意:   
-* イントネーションとフィルターを `0` と `0.5` として登録してください! (高度利用者向けの設定です!下手すると壊れます!)   
+### 注意:
+* イントネーションとフィルターを `0` と `0.5` として登録してください! (高度利用者向けの設定です!下手すると壊れます!)
 * `!iru vl`で使えるボイスの確認する事をオススメします！
 
 |例|コマンド|
 |-|-|
-|声(日本語):「woman」声(英語):「bdl」 速度:「1.5」イントネーション:「0」フィルター:「0.5」 音程「0」|`!iru settings voice woman 1.5 0 0.5 0 bdl`|  
-|声(日本語):「man」声(英語):「slp」 速度:「1.25」イントネーション:「0」フィルター:「0.5」 音程「5」|`!iru settings voice man 1.25 0 0.5 5 slp`|  
-|声(日本語):「mei_angry」声(英語):「lnh」 速度:「1.75」イントネーション:「0」フィルター:「0.5」 音程「-2」|`!iru settings voice mei_angry 1.75 0 0.5 -2 lnh`|  
+|声(日本語):「woman」声(英語):「bdl」 速度:「1.5」イントネーション:「0」フィルター:「0.5」 音程「0」|`!iru settings voice woman 1.5 0 0.5 0 bdl`|
+|声(日本語):「man」声(英語):「slp」 速度:「1.25」イントネーション:「0」フィルター:「0.5」 音程「5」|`!iru settings voice man 1.25 0 0.5 5 slp`|
+|声(日本語):「mei_angry」声(英語):「lnh」 速度:「1.75」イントネーション:「0」フィルター:「0.5」 音程「-2」|`!iru settings voice mei_angry 1.75 0 0.5 -2 lnh`|
 
 ### ボイス設定の項目で設定できる範囲:
 |項目|範囲|
@@ -69,16 +69,16 @@ This bot's prefix is !iru
 
 ---
 
-## Prefixコマンドの使い方:  
-サーバー固有のPrefixの設定ができます!もし書きやすいコマンドなどがあれば、これで変えてください!  
+## Prefixコマンドの使い方:
+サーバー固有のPrefixの設定ができます!もし書きやすいコマンドなどがあれば、これで変えてください!
 
-### 注意:   
+### 注意:
 * スペースは自動で消される仕組みになっています。本当にスペースが必要ならコマンドの項目の一つを `1` に変えてください!
 
 |例|コマンド|
 |-|-|
-|「readout!」|`!iru settings prefix 0 readout!`|  
-|「??」|`!iru settings prefix 0 ??`|  
+|「readout!」|`!iru settings prefix 0 readout!`|
+|「??」|`!iru settings prefix 0 ??`|
 |「!yomi 」|`!iru settings prefix 1 !yomi`|
 
 ### Prefix設定の項目で設定できる範囲:
